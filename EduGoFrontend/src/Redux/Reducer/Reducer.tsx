@@ -1,9 +1,23 @@
-const initialState : any = {
+const initialState: any = {
 
 }
 
-const Reducer = (state = initialState, action : any) => {
-    switch(action.type){
+
+// callStore(ActionObject)
+// dispatch(set_user(User))
+const Reducer = (state = initialState, action: any) => {
+    switch (action.type) {
+        // case "SET_USER":
+        //     return {
+        //         ...state,
+        //         user: action.payload
+        //     };
+
+        // case "SET_ACCESSTOKEN":
+        //     return {
+        //         ...state,
+        //         accesstoken: action.payload
+        //     }
 
         default:
             return state;
