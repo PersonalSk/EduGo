@@ -1,0 +1,54 @@
+/* Login.css */
+
+.root-grid {
+  height: 90vh;
+}
+
+.image-grid {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative; /* Make the image-grid relative */
+}
+
+.centered-text {
+  position: absolute; /* Position the text in the middle */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.1); /* Optional: Add background for better readability */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.paper-styled {
+  margin: 64px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar-styled {
+  margin: 8px;
+  background-color: #f50057;
+}
+
+.form-styled {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.submit-button {
+  margin: 24px 0 16px;
+}
+
+
+@media (max-width: 820px) {
+  .centered-text {
+    display: none; /* Hide the element */
+  }
+}

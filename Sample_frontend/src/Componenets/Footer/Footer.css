@@ -1,0 +1,7 @@
+/* Footer should stay at the bottom */
+.footer {
+    height: 40px; /* Adjust as needed */
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+  }

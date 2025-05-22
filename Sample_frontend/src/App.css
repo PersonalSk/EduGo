@@ -1,0 +1,37 @@
+/* Ensures the entire page takes full screen */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevents scrolling of the entire page */
+  }
+  
+  /* Main container to wrap all sections */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+  }
+  
+  
+  
+  
+  
+  /* The middle section should take remaining height */
+  .content-container {
+    display: flex;
+    flex: 1; /* Takes all remaining space between header and footer */
+    width: 100%;
+    overflow: hidden; /* Prevents scrolling on the entire section */
+  }
+  
+ 
+  
+  /* Dynamic content should be in remaining space */
+  .dynamic-content {
+    flex: 1; /* Takes 70% width dynamically */
+    padding: 1rem;
+    overflow-y: auto; /* If needed, allow scrolling inside dynamic content */
+  }
+  

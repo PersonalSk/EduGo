@@ -1,0 +1,57 @@
+.root-grid {
+    height: 90vh;
+  }
+  
+  .image-grid {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  .paper-styled {
+    margin: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .avatar-styled {
+    margin: 10px;
+    background-color: #f50057; /* Customize the color as needed */
+  }
+  
+  .form-styled {
+    width: 100%; /* Fix IE 11 issue */
+    margin-top: 8px;
+  }
+  
+  .name-fields {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 16px; /* Space below the name fields */
+  }
+  
+  .name-fields .MuiTextField-root {
+    margin-right: 8px; /* Space between the two fields */
+    flex: 1; /* Ensure both fields take equal width */
+  }
+  
+  .name-fields .MuiTextField-root:last-child {
+    margin-right: 0; /* Remove margin from the last field */
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+  }
+  

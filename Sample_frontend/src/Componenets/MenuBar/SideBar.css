@@ -1,0 +1,50 @@
+.sidebar {
+    width: 15%;
+    height: 100vh; /* Full height */
+    /* background-color: yellow; */
+    padding: 1rem;
+    overflow-y: scroll;
+    border: 3px solid yellow;
+    /* overflow: scroll; */
+  }
+
+  .Side-bar-list{
+    max-height: 80vh;
+    overflow: scroll;
+    border: 3px solid blue;
+  }
+
+  .parent-item {
+    list-style: none;
+    font-weight: bold;
+    border: 3px solid black;
+  }
+  
+  .parent-box {
+    background: green;
+    padding: 6px;
+    margin: 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 3px solid red;
+  }
+  
+  
+  
+  .child-list {
+    list-style: none;
+    padding-left: 15px;
+    margin-top: 5px;
+    background: orange;
+    border: 3px solid blue;
+    
+  }
+  
+  .child-item {
+    background: red;
+    padding: 5px;
+    margin: 4px 0;
+    border-radius: 3px;
+    border: 3px solid blue;
+  }
+  

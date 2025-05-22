@@ -1,0 +1,6 @@
+/* Header should take only required height */
+.header {
+    height: 60px; /* Adjust as needed */
+    background-color: red;
+    text-align: center;
+  }

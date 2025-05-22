@@ -9,10 +9,10 @@ public class EduGoApplication {
 
 	public static void main(String[] args) {
 		System.out.println("EduGo start");
-		Dotenv dotenv = Dotenv.load();
-		System.out.println(dotenv);
+//		Dotenv dotenv = Dotenv.load();
+//		System.out.println(dotenv);
 		System.out.println("rami");
-		System.setProperty("MONGO_URI", dotenv.get("MONGO_URI"));
+//		System.setProperty("MONGO_URI", dotenv.get("MONGO_URI"));
 		SpringApplication.run(EduGoApplication.class, args);
 		System.out.println("EduGo Stop");
 	}
